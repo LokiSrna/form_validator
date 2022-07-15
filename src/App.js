@@ -12,7 +12,7 @@ function App() {
   const [responce, setResponce] = useState({ status: false, msg: "" })
 
   const stringValidator = (value) => {
-    if (typeof value != 'string') return false
+    if (typeof value !== 'string') return false
 
     return true
   }
